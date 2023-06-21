@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CadastroComponent } from './cadastro/cadastro.component';
+import { PaginaDoUsuarioComponent } from './pagina-do-usuario/pagina-do-usuario.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CadastroComponent,
+    PaginaDoUsuarioComponent
   ],
   imports: [
     BrowserModule,
